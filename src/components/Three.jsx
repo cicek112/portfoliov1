@@ -50,7 +50,6 @@ function Three() {
 
             <Su img = {img7} data-aos="fade-up">
                 <div className='high higher'>
-                    <h3><a href="#">Live</a></h3>
                     <h3><a href="https://github.com/cicek112/portfoliov1">Code</a></h3>
                     <h3><a href="https://www.figma.com/file/qAuU36qdGUNWwGpCWWvSOv/Portfolio?type=design&node-id=12-47&mode=design&t=o1rghdjf1h1IsNp2-0">Figma</a></h3>
                 </div>
@@ -81,8 +80,8 @@ function Three() {
             
             <Su img = {img3} data-aos="fade-up">
                 <div className='high'>
-                    <h3><a href="#">Live</a></h3>
-                    <h3><a href="#">Code</a></h3>
+                    <h3><a href="https://kaleidoscopic-seahorse-1bd8e1.netlify.app/#">Live</a></h3>
+                    <h3><a href="https://github.com/cicek112/PlanetFacts-Responsive">Code</a></h3>
                     
                 </div>
                 
