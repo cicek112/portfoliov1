@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfoliov1/static/css/main.f5e7f69b.css",
+    "main.js": "/portfoliov1/static/js/main.410dfcf1.js",
+    "static/media/react2.png": "/portfoliov1/static/media/react2.becbab0ab5d2271d2831.png",
+    "static/media/arka.png": "/portfoliov1/static/media/arka.dc114c483f94d8136100.png",
+    "static/media/tesla.png": "/portfoliov1/static/media/tesla.f7e0a01ca8069b5bc2a0.png",
+    "static/media/tailwind.png": "/portfoliov1/static/media/tailwind.ddb0d6567c9af39395e0.png",
+    "static/media/talent.png": "/portfoliov1/static/media/talent.80b946404c5b0e7477c1.png",
+    "static/media/css.png": "/portfoliov1/static/media/css.faccfae3c97596fcb27e.png",
+    "static/media/sushi.png": "/portfoliov1/static/media/sushi.342c3e2271567df07c43.png",
+    "static/media/earth.png": "/portfoliov1/static/media/earth.635fe1c67adcbff6424b.png",
+    "static/media/portfolio.png": "/portfoliov1/static/media/portfolio.12add52eb66e7f68eb1f.png",
+    "static/media/cry.png": "/portfoliov1/static/media/cry.2899e4199f419e92a26f.png",
+    "static/media/js.png": "/portfoliov1/static/media/js.166865dacb77d214f485.png",
+    "static/media/kart.png": "/portfoliov1/static/media/kart.79c4f7502ef872be1c34.png",
+    "static/media/redux.png": "/portfoliov1/static/media/redux.1edba70acbe0a2484e24.png",
+    "static/media/figma.png": "/portfoliov1/static/media/figma.1475cc523b5f4c537bd9.png",
+    "static/media/elipse.png": "/portfoliov1/static/media/elipse.bf29b0200c86af1cea57.png",
+    "index.html": "/portfoliov1/index.html",
+    "main.f5e7f69b.css.map": "/portfoliov1/static/css/main.f5e7f69b.css.map",
+    "main.410dfcf1.js.map": "/portfoliov1/static/js/main.410dfcf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5e7f69b.css",
+    "static/js/main.410dfcf1.js"
+  ]
+}
