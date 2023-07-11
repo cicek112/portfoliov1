@@ -20,7 +20,7 @@ function Salam() {
                 </div>
                 
 
-                <p data-aos="fade-left">
+                <p data-aos="fade-right">
                 I have done a lot of
 projects but
 these are my

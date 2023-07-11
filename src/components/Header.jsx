@@ -46,6 +46,7 @@ export default Header
 
 
 const Main =styled.div`
+    
     height:100vh;
     background-image:
     linear-gradient(to bottom, rgba(56, 56, 56, 0.20), rgba(0, 0, 0, 0.20)),
@@ -55,12 +56,7 @@ const Main =styled.div`
     
     background-size: cover;
     
-    @media only screen and (max-width:768px){
-        height:100vh;
-        background-size: cover;
-        background-position:center;
-      
-    }
+    
 
 `
 
@@ -159,7 +155,7 @@ const Middle=styled.div`
     margin-top:2em;
    
     text-align:center;
-
+    
     position:absolute;
     top:50%;
     left:50%;

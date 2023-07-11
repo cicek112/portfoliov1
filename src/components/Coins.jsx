@@ -49,6 +49,12 @@ const Main = styled.div`
         font-size:2.25em;
     }
 
+    @media only screen and (max-width:768px){
+        h2{
+            text-align:center;
+        }
+    }
+
     .coins{
         display:flex;
         align-items:center;
