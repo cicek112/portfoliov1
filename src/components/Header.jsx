@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import styled from "styled-components"
-import img1 from './images/logo.png'
+
 import arka from './images/arka.png'
-import img2 from "./images/logo2.png"
+
 import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() {
@@ -19,9 +19,9 @@ function Header() {
         <Navbar>
             <h2 className='name'>Osman</h2>
             <ul className={bar?"acik":"kapali"} >
-                <li><a href="https://www.linkedin.com/in/osman-çiçek-60489621a/">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="https://www.linkedin.com/in/osman-çiçek-60489621a/">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
                 
             </ul>
 

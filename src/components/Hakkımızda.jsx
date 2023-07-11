@@ -9,7 +9,7 @@ function Hakkımızda() {
         Aos.init({duration:2000})
     },[])
   return (
-    <Main>
+    <Main id='about'>
         <Text>
             <h3 data-aos="fade-up">About</h3>
             <p data-aos="fade-up" >I am a self-taught developer.I was the software leader at a

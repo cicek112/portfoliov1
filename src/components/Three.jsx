@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import styled from "styled-components"
 import img1 from "./images/tesla.png"
-import img2 from "./images/markmanson.png"
+
 import img3 from "./images/earth.png"
 import img4 from "./images/elipse.png"
 import img5 from "./images/sushi.png"
@@ -19,7 +19,7 @@ function Three() {
         Aos.init({duration:2000})
     },[])
   return (
-    <Main>
+    <Main id="projects">
         <Mother>
             <Su img = {img5} data-aos="fade-up">
                 <div className='high'>
