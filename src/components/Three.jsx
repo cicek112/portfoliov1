@@ -23,7 +23,7 @@ function Three() {
         <Mother>
             <Su img = {img5} data-aos="fade-up">
                 <div className='high'>
-                    <h3><a href="https://helpful-cendol-883f06.netlify.app/">Live</a></h3>
+                    <h3><a href="#">sdfgsdfgfdsg</a></h3>
                     <h3><a href="https://github.com/cicek112/sushistore">Code</a></h3>
                     
                     
