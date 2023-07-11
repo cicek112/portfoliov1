@@ -23,7 +23,7 @@ function Three() {
         <Mother>
             <Su img = {img5} data-aos="fade-up">
                 <div className='high'>
-                    <h3><a href="#">sdfgsdfgfdsg</a></h3>
+                    <h3><a href="https://glittering-gnome-e4fee4.netlify.app/">Live</a></h3>
                     <h3><a href="https://github.com/cicek112/sushistore">Code</a></h3>
                     
                     
@@ -183,6 +183,7 @@ const Su=styled.div`
         justify-content:space-between;
         margin-left:80%; //AYARLANACAK
     }
+    
     .higher{
         height:50%
     }

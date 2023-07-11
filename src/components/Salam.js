@@ -38,7 +38,7 @@ export default Salam
 const First=styled.div`
     background: #1D9EA6;
     flex:1;
-    height:60vh;
+    height:70vh;
 
     @media only screen and (max-width:768px){
         width:100%;
