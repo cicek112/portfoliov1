@@ -91,18 +91,7 @@ function Three() {
                 </div>
             </Su>
 
-            <Su img = {talent} data-aos="fade-up">
-                <div className='high'>
-                    <h3><a href="https://64ad3b35519f460078eb85c3--stupendous-cactus-a961be.netlify.app/">Live</a></h3>
-                    <h3><a href="https://github.com/cicek112/TalentKompassTailwindWebsite">Code</a></h3>
-                   
-                </div>
-                
-                <div>
-                    <h4>Your website's clone to show I am not a person who just followed tutorials.</h4>
-                    <h2>TalentKompass Deutschland Website Clone For Impress You</h2>
-                </div>
-            </Su>
+            
 
         </Mother> 
     </Main>
