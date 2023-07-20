@@ -164,11 +164,28 @@ const Middle=styled.div`
     color:white;
 
     h1{
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .1em; /* Adjust as needed */
+        animation: typing 3.5s steps(40, end),blink-caret .75s step-end infinite;
         margin-top:-0.5em;
-        margin-bottom:0.25em;
+        margin-bottom:0.5em;
         font-weight:700;
         font-size:2.90em;
     }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+      }
 
     span{
         color:#0CE1EF;
@@ -177,6 +194,7 @@ const Middle=styled.div`
     h3{
         font-weight:300;
         font-size:1em;
+        margin-bottom:1em;
     }
 
     .buton{
@@ -184,7 +202,7 @@ const Middle=styled.div`
         padding:0.5em;
         width:20%;
         margin:auto;
-        margin-top:1em;
+        margin-top:2em;
         background: #10C2E9;
         border-radius:10px;
         text-align:center;

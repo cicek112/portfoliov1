@@ -7,7 +7,7 @@ import img4 from "./images/elipse.png"
 import img5 from "./images/sushi.png"
 import img6 from "./images/cry.png"
 import img7 from "./images/portfolio.png"
-import talent from "./images/talent.png"
+import talent from "./images/food.png"
 
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import Aos from "aos"
@@ -93,14 +93,14 @@ function Three() {
 
             <Su img = {talent} data-aos="fade-up">
                 <div className='high'>
-                    <h3><a href="https://64ad3b35519f460078eb85c3--stupendous-cactus-a961be.netlify.app/">Live</a></h3>
-                    <h3><a href="https://github.com/cicek112/TalentKompassTailwindWebsite">Code</a></h3>
+                    <h3><a href="https://cicek112.github.io/food">Live</a></h3>
+                    <h3><a href="https://github.com/cicek112/food">Code</a></h3>
                    
                 </div>
                 
                 <div>
-                    <h4>Your website's clone to show I am not a person who just followed tutorials.</h4>
-                    <h2>TalentKompass Deutschland Website Clone For Impress You</h2>
+                    <h4>I always wonder what can I cook with the last food in my fridge so I coded it.</h4>
+                    <h2>A Meal Finder with TailwindCss & React & Git & Api</h2>
                 </div>
             </Su>
 
