@@ -48,17 +48,7 @@ function Three() {
                 </div>
             </Su>
 
-            <Su img = {img7} data-aos="fade-up">
-                <div className='high higher'>
-                    <h3><a href="https://github.com/cicek112/portfoliov1">Code</a></h3>
-                    <h3><a href="https://www.figma.com/file/qAuU36qdGUNWwGpCWWvSOv/Portfolio?type=design&node-id=12-47&mode=design&t=o1rghdjf1h1IsNp2-0">Figma</a></h3>
-                </div>
-                
-                <div>
-                    <h4>This portfolio website :) Now Live</h4>
-                    <h2>Portfolio website with Styled Components and Figma UX/UI design</h2>
-                </div>
-            </Su>
+            
         </Mother> 
         
         <Resim className='resim'><img src={img4} alt="" /></Resim>
@@ -78,20 +68,9 @@ function Three() {
             </Su>
             
             
-            <Su img = {img3} data-aos="fade-up">
-                <div className='high'>
-                    <h3><a href="https://kaleidoscopic-seahorse-1bd8e1.netlify.app/#">Live</a></h3>
-                    <h3><a href="https://github.com/cicek112/PlanetFacts-Responsive">Code</a></h3>
-                    
-                </div>
-                
-                <div>
-                    <h4>A Responsive Design Challenge</h4>
-                    <h2>Responsive Planet Facts Website With Vanilla Javascript</h2>
-                </div>
-            </Su>
 
-            <Su img = {talent} data-aos="fade-up">
+
+            <Su img = {talent} className='ma' data-aos="fade-up">
                 <div className='high'>
                     <h3><a href="https://cicek112.github.io/food">Live</a></h3>
                     <h3><a href="https://github.com/cicek112/food">Code</a></h3>
@@ -99,8 +78,8 @@ function Three() {
                 </div>
                 
                 <div>
-                    <h4>I always wonder what can I cook with the last food in my fridge so I coded it.</h4>
-                    <h2>A Meal Finder with TailwindCss & React & Git & Api</h2>
+                    <h4>I always wonder what can I cook with the last food </h4>
+                    <h2>A Meal Finder with TailwindCss & React </h2>
                 </div>
             </Su>
 
@@ -112,7 +91,7 @@ function Three() {
 export default Three
 
 const Main=styled.div`
-    height:126vh;
+    height:100vh;
     
     display:flex;
 
@@ -152,7 +131,7 @@ const Resim=styled.div`
 
 
 const Mother=styled.div`
-    height:126vh;
+    height:100vh;
     flex:1;
     width:100%;
     display:flex;
@@ -205,6 +184,10 @@ const Su=styled.div`
     
     h4{
         font-weight:500;
+    }
+
+    .ma{
+        margin-bottom:1em;
     }
 
 
