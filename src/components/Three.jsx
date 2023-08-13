@@ -69,7 +69,6 @@ function Three() {
             
             
 
-{/* asdfıoasdf */}
             <Su img = {talent} className='ma' data-aos="fade-up">
                 <div className='high'>
                     <h3><a href="https://cicek112.github.io/food">Live</a></h3>
